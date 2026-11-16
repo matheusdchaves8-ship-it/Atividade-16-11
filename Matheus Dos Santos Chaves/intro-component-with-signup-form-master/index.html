@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="resources/script/script.js"defer></script>
+
+  <link
+  rel="icon"
+  type="image/png"
+  sizes="32x32"
+  href="images/favicon-32x32.png">
+
+</head>
+<body>
+  <main class="container"> 
+
+    
+    <section class="intro">
+
+      <h1>Aprenda a programar observando outras pessoas</h1>
+
+      <p>
+        Veja como desenvolvedores experientes resolvem
+        problemas em tempo real. Assistir a tutoriais
+        é ótimo, mas entender como os desenvolvedores
+        pensam é ainda mais valioso.
+      </p>
+
+    </section>
+
+    
+    <section class="signup" aria-label="Cadastro">
+
+      
+      <div class="offer">
+
+        <p>
+          <strong>Experimente grátis por 7 dias</strong>
+          e depois pague R$ 20 por mês.
+        </p>
+
+      </div>
+
+      
+      <form id="signup-form" novalidate>
+
+       
+        <div class="input-group">
+
+          <input
+            type="text"
+            id="first-name"
+            name="firstName"
+            placeholder="Nome"
+            aria-label="Nome"
+            aria-describedby="first-name-error"
+            autocomplete="given-name"
+          >
+
+          <span class="error-icon" aria-hidden="true">!</span>
+
+          <small
+            class="error-message"
+            id="first-name-error"
+          ></small>
+
+        </div>
+
+       
+        <div class="input-group">
+
+          <input
+            type="text"
+            id="last-name"
+            name="lastName"
+            placeholder="Sobrenome"
+            aria-label="Sobrenome"
+            aria-describedby="last-name-error"
+            autocomplete="family-name"
+          >
+
+          <span class="error-icon" aria-hidden="true">!</span>
+
+          <small
+            class="error-message"
+            id="last-name-error"
+          ></small>
+
+        </div>
+
+        
+        <div class="input-group">
+
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Endereço de e-mail"
+            aria-label="Endereço de e-mail"
+            aria-describedby="email-error"
+            autocomplete="email"
+          >
+
+          <span class="error-icon" aria-hidden="true">!</span>
+
+          <small
+            class="error-message"
+            id="email-error"
+          ></small>
+
+        </div>
+
+        
+        <div class="input-group">
+
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Senha"
+            aria-label="Senha"
+            aria-describedby="password-error"
+            autocomplete="new-password"
+          >
+
+          <span class="error-icon" aria-hidden="true">!</span>
+
+          <small
+            class="error-message"
+            id="password-error"
+          ></small>
+
+        </div>
+
+        
+        <button type="submit" class="submit-btn">
+          Comece seu teste gratuito
+        </button>
+
+        
+        <p class="terms">
+          Ao clicar no botão, você concorda com
+          nossos
+          <a href="#terms">Termos e Condições</a>.
+        </p>
+
+        
+        <p
+          id="form-success"
+          class="success-message"
+          role="status"
+          hidden
+        ></p>
+
+      </form>
+
+    </section>
+
+  </main>
+  
+</body>
+</html>
